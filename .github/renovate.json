@@ -47,7 +47,6 @@
       "description": "Express Minor and Patch version updates",
       "matchPackageNames": ["express"],
       "groupName": "expressjs",
-      "matchUpdateTypes": ["patch", "minor"],
       "rangeStrategy": "bump"
     }
   ],
