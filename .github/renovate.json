@@ -7,6 +7,9 @@
     "group:test",
     ":preserveSemverRanges"
   ],
+  "major": {
+    "dependencyDashboardApproval": true
+  },  
   "ignorePresets": [":pinDevDependencies", ":pinDigest", "docker:pinDigests"],
   "labels": ["dependencies"],
   "postUpdateOptions": ["yarnDedupeHighest"],
@@ -39,6 +42,12 @@
     {
       "matchPackageNames": ["yn"],
       "allowedVersions": "<5.0.0"
+    },
+    {
+      "description": "Express Minor and Patch version updates",
+      "matchPackageNames": ["express"],
+      "groupName": "expressjs",
+      "matchUpdateTypes": ["patch", "minor"]
     }
   ],
   "ignorePaths": ["**/dist-dynamic/**"],
