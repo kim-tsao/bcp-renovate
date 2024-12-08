@@ -47,7 +47,7 @@
       "description": "Express Minor and Patch version updates",
       "matchPackageNames": ["express"],
       "groupName": "expressjs",
-      "rangeStrategy": "bump"
+      "rangeStrategy": "update-lockfile"
     }
   ],
   "ignorePaths": ["**/dist-dynamic/**"],
