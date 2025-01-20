@@ -2530,7 +2530,7 @@ __metadata:
     "@testing-library/jest-dom": 6.6.2
     "@testing-library/react": 14.3.1
     "@testing-library/user-event": 14.5.2
-    "@types/node": 18.19.64
+    "@types/node": 18.19.71
     cross-fetch: 4.0.0
     msw: 1.3.5
     react-router-dom: ^6.26.2
@@ -8340,12 +8340,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.19.64, @types/node@npm:^18.11.18, @types/node@npm:^18.11.9":
-  version: 18.19.64
-  resolution: "@types/node@npm:18.19.64"
+"@types/node@npm:18.19.71, @types/node@npm:^18.11.18, @types/node@npm:^18.11.9":
+  version: 18.19.71
+  resolution: "@types/node@npm:18.19.71"
   dependencies:
     undici-types: ~5.26.4
-  checksum: e7680215b03c9bee8a33947f03d06048e8e460f23b1b7b29c45350cf437faa5f8fcb7d8c3eb8dfec8427923e7a184df42bc710c1b6252b4852e3ed7064c6228f
+  checksum: 4539d57234550df9b919ab9592ce9231e86c60d7703b4a56f12dd7dfcf28dfe44ab5cb7a6c3900a93a3850de126ae25758a94dd27eaaccc4e8acf7158cfa3a59
   languageName: node
   linkType: hard
 
